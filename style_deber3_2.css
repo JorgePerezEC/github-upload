@@ -1,0 +1,185 @@
+/* ####### ESTILOS DE DOCUMENTO EN GENERAL #######  */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+html{
+    height: 100%;
+    background-color: white;
+}
+body{
+    width: 1000px;
+    background-color: rgb(16, 16, 97);
+}
+/* ####### ESTILOS DE ELEMENTOS #######  */
+li{
+    list-style: none;
+    margin: 2%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+textarea{
+    background-color: rgb(130, 189, 216);
+    font-style: italic;
+    text-align: left;
+}
+
+/* ####### ESTILOS DE CLASES #######  */
+.nav-title{
+    color: white;
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    width: 45%;
+    font-size:medium;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:end;
+    width: 75%;
+}
+.nav-links2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    width: 75%;
+}
+.a_style{
+    color: rgb(37, 0, 139);
+    font-size: 12px;
+}
+.imagenT{
+    width: 40px;
+    background: white;
+    border-radius: 25px;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.b1{
+    background-color: rgb(28, 121, 228);
+    margin: 2%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 220px;
+}
+.subB1{
+    margin: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    
+}
+.letterB1{
+    font-size: 12px;
+    margin: 5%;
+    text-align: left;
+}
+.boton{
+    display: inline-block;
+    padding: 5px;
+    background-color: azure;
+    width: 100px;
+    color: black;
+    text-align: center;
+    height: 28px;
+    font-size: 12px;
+    margin-left: -77%;
+}
+.h2_style{
+    font-size: medium;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+.h2_style2{
+    font-size: 17px;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+.Secc1{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 1%;
+
+}
+/* ####### ESTILOS DE IDENTIFICADORES #######  */
+#titulo1{
+    display: flex;
+    flex-direction: row;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+#contenedor{
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 85%;
+}
+#footer{
+    background-color: rgb(129, 233, 252);
+    margin: 3%;
+    height: 50px;
+}
+#box3{
+    display: flex;
+    
+}
+#box3V2{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+#imgEdif{
+    width: 95%;
+    margin: 2%;
+}
+#span_link2{
+    color: rgb(53, 22, 138);
+    text-decoration: underline;
+    font-size: 12px;
+    
+}
+#cuadTxt{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(130, 189, 216);
+    margin: 2%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    height: 55%;
+    font-style: italic;
+}
+#txtSamanta{
+    font-size: 10px;
+    margin: 2%;
+    font-weight: bold;
+}
+
+
+
+
+
